@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FirebaseApp';
+  clockHour: number = 1;
+  clockMin: number = 1;
+  clockSec: number = 1;
+
+  ngOnInit(): void {
+    setInterval( () => this.clockSec ++, 1000);
+  }
+
 }
