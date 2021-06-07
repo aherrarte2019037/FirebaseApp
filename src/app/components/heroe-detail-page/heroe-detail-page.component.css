@@ -1,0 +1,11 @@
+input::placeholder {
+    font-size: 14.5px;
+}
+
+.state-span {
+    margin-top: -4px;
+}
+
+.edit-form {
+    @apply gap-x-5 grid w-full p-10 mx-auto my-6 transition grid-cols-2 duration-500 ease-in-out transform bg-white border rounded-lg lg:w-8/12 2xl:w-1/2 md:mt-0;
+}
